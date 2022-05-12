@@ -1,6 +1,8 @@
 # Boost
 * Boost Library?   
 * Boost는 C++ 프로그래밍 언어를 위한 선형대수, 의사 난수 발생, 멀티스레딩, 영상 처리, 정규 표현식, 그리고 유닛 테스트와 같은 작업들과 구조들을 지원하는 라이브러리들의 집합이다.    
+* 비동기 소켓 프로그래밍에 윈도우는 IOCP, 리눅스는 epoll을 사용하여 호환성이 없음 => C++11부터 멀티스레드 API가 나오면서 윈도우/리눅스 상관없이 사용가능   
+* ASIO가 나오면서 윈도우 리눅스 상관 없이 비동기 소켓 프로그래밍이 가능하게 되었다.   
 * [Boost Library 다운로드 경로 https://www.boost.org/](https://www.boost.org/)   
 * 2022/05/12 기준 Boost 최신 버전은 1.79.0 이다. 해당 링크를 클릭한다.   
 * ![image](https://user-images.githubusercontent.com/68372094/167975666-6feaa761-68e0-445d-9541-7c45f776d293.png)   
