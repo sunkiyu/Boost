@@ -12,7 +12,8 @@
 * 위키 백과를 통해 자신의 PC에 설치된 비주얼 스튜디오 버전을 확인한다.   
 * [https://en.wikipedia.org/wiki/Microsoft_Visual_C++](https://en.wikipedia.org/wiki/Microsoft_Visual_C++) 위키백과를 통해 확인 가능하다.   
 * Developer Command Prompt for VS2019를 실행 시킨다.   
-* 본인은 비주얼 스튜디오 2019 16.11 버전이므로 14.29
-* b2 toolset=msvc-14.29 variant=debug,release link=static threading=multi address-model=64 runtime-link=static
+* 본인은 비주얼 스튜디오 2019 16.11 버전이므로 MSVC 14.29에 해당한다.    
+* Prompt를 실행했으면 부스트가 있는 디렉터리로 이동 후 아래 명령어를 입력한다.    
+* b2 toolset=msvc-14.29 variant=debug,release link=static threading=multi address-model=64 runtime-link=static     
 
 
