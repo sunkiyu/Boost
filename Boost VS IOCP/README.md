@@ -1,5 +1,9 @@
 # Boost VS IOCP
 
+## OS 환경
+* IOCP는 윈도우 환경에 종속적, 리눅스에서 동일한 고성능 네트워크 처리를 위해서는 epoll을 사용해야한다.   
+* Boost는 윈도우 리눅스에서 수정없이 모두 사용 가능하다.   
+
 ## Accept 작업
 * IOCP는 AcceptEx를 하기위해 런타임에 함수 포인터로 해당 함수를 받아오고 Bind/listen/accept 시켜주는 등 여러가지 단계가 필요하다.   
 * Boost는 IO Context 만들어주고 endpoint 만들어 acceptor에 넣어주고 acceptor로 비동기 함수만 호출해주면 된다.   
