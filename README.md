@@ -19,4 +19,6 @@
 * Prompt를 실행했으면 부스트가 있는 디렉터리로 이동 후 아래 명령어를 입력한다.    
 * b2 toolset=msvc-14.29 variant=debug,release link=static threading=multi address-model=64 runtime-link=static     
 
+비주얼 스튜디오 추가 포함디렉터리, 추가 라이브러리 디렉터리에 경로 설정
+
 
