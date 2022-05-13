@@ -6,7 +6,7 @@
 * 사실 Boost 내부 구현은 IOCP이다.   
 
 ## Accept 작업
-* IOCP는 AcceptEx를 하기위해 런타임에 함수 포인터로 해당 함수를 받아오고 Bind/listen/accept 시켜주는 등 여러가지 단계가 필요하다.   
+* IOCP는 AcceptEx를 하기위해 런타임에 함수 포인터로 해당 함수를 받아오고 Bind/listen/accept 시켜주는 등 BSD 소켓 스타일의 여러가지 단계가 필요하다.   
 * Boost는 IO Context 만들어주고 endpoint 만들어 acceptor에 넣어주고 acceptor로 비동기 함수만 호출해주면 된다.   
 
 ## I/O 완료 처리
