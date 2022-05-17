@@ -11,7 +11,7 @@
 
 ## I/O 완료 처리
 * IOCP는 WorkerThread 들이 GQCS에서 완료 작업들을 꺼내어 accept/receive/send 에 대한 구분 작업과 처리를 따로 해주었다.   
-* Boost는 io_context.run() 을 통해 WorkerThread 들이 완료 작업을 핸들러에게 넘겨준다.   
+* Boost는 io_context.run() 을 통해 WorkerThread 들이 완료 작업을 핸들러에게 넘겨준다. 직접처리 X   
 * IOCP는 GQCS에서 깨어난 스레드가 직접 I/O 완료 작업을 처리한다.   
 * 따라서 Boost는 어떤 작업이 완료되었는지 구분 작업을 해줄 필요가 없다.   
 
